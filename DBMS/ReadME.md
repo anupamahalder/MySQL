@@ -26,15 +26,17 @@ Table: Student
 | 103  | Ram  | 32562 |
 <br>
 To uniquely identify any record using a particular data we use primary key. Here Roll is primary key. <br>
+
 ## Composite Primary Key:
 Where two or more columns/fields are needed to uniquely identify a record from a table.
-Table: Course
+<br>
+Table: Course 
 | Course ID | College | Credit |
 | --------- | ------- | ------ |
 | CSE 01    | ABC     | 7      |
 | CSE 02    | JNU     | 6      |
 | CSE 01    | PQR     | 8      |
-| CSE 01    | VC      | 3      |
+| CSE 03    | VC      | 3      |
 <br>
 Here to uniquely identify a record we need primary key as (Course ID, College) together.
 
